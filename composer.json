@@ -1,0 +1,20 @@
+{
+    "name": "ilyukdim/otus-checkers",
+    "description": "string checking",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ilyukdim\\OtusCheckers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ilyukdim",
+            "email": "ilyukdim@ilyukdim.example"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-mbstring": "*"
+    }
+}
